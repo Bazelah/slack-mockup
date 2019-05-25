@@ -1,0 +1,44 @@
+/* Write all your CSS here */
+
+/* Please indent properly */
+
+/* Please use only lower-case letters */
+
+/* Your webpage should be 100% responsive!!! */
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+div li {
+    list-style-type: none;
+    /* display: flex;
+    justify-content: right; */
+}
+
+.side-bar {
+    text-align: initial;
+    background-color: #3f0e40;
+    color: #ffffff;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+}
+
+footer {
+    width: 100%;
+}
+
+.side-bar input {
+    background-color: #260027;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 360px)
