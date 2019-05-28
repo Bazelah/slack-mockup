@@ -3,8 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,400,500,700,900&display=swap"
+        rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
@@ -13,56 +17,69 @@
 <body>
     <div class="main">
         <div class="side-bar">
-            <h2>tk-2019</h2>
-            <h3>Bazelah Mahmud</h3>
+            <h2>tk-2019 <i class="fas fa-chevron-down"></i> <i class="far fa-bell"></i></h2>
+            <h3><i class="far fa-circle"></i> Bazelah Mahmud</h3>
             <input type="text" placeholder="jump to">
             <ul>
-                <li>Threads</li>
-                <li>Channels</li>
-                <li># announcements</li>
-                <li># attendence</li>
-                <li># chat</li>
-                <li># class resourse</li>
-                <li># freecodecamp</li>
-                <li># general</li>
-                <li># group-b-rabia</li>
-                <li># life-skills</li>
-                <li># mentor-meetups</li>
-                <li># student-showcase</li>
+                <li><i class="fas fa-comment-dots fa-flip-horizontal"></i> Threads</li>
+                <li>Channels <i class="fas fa-plus-circle"></i></li>
+                <li><i class="fas fa-hashtag"></i> announcements</li>
+                <li><i class="fas fa-hashtag"></i> attendence</li>
+                <li><i class="fas fa-hashtag"></i> chat</li>
+                <li><i class="fas fa-hashtag"></i> class resourse</li>
+                <li><i class="fas fa-hashtag"></i> freecodecamp</li>
+                <li><i class="fas fa-hashtag"></i> general</li>
+                <li class="selected"><i class="fas fa-hashtag"></i> group-b-rabia</li>
+                <li><i class="fas fa-hashtag"></i> life-skills</li>
+                <li><i class="fas fa-hashtag"></i> mentor-meetups</li>
+                <li><i class="fas fa-hashtag"></i> student-showcase</li>
                 <li>tk-girls</li>
-                <li># web-dev</li>
+                <li><i class="fas fa-hashtag"></i> web-dev</li>
+            </ul>
+            <ul>
+                <li>Direct Massage <i class="fas fa-plus-circle"></i></li>
+                <li><i class="fas fa-heart"></i> Slackbot </li>
+                <li><i class="far fa-circle"></i> Bazelah Mahmud (you)</li>
             </ul>
         </div>
         <section>
             <header>
-                <h3>#grop-b-rabia</h3>
-                <input type="text" placeholder="search">
+                <div class="head">
+                    <h3>#grop-b-rabia</h3>
+                    <p><i class="far fa-star"></i> <i class="far fa-user"></i> 15 <i class="fas fa-thumbtack"></i> 0 <i
+                            class="fas fa-pencil-alt"></i> Add a topic</p>
+                </div>
+                <div class="search">
+                    <i class="fas fa-phone"></i><i class="fas fa-info-circle"></i><i class="fas fa-cog"></i>
+                    <i class="fas fa-search"></i><input type="search" placeholder="Search"><i class="fas fa-at"></i><i
+                        class="far fa-star"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
             </header>
-            <div>
-                <hr> Monday,April 29th
-                <hr>
-                <img src="mockups\Capture.PNG" alt="">
-                <hr> Monday,April 20th
-                <hr>
-                <footer>
-                    <input type="text" placeholder="Message #grop-b-rabia">
-                </footer>
-
-            </div>
+            <section>
+                <div class="day">
+                    <!-- <hr class="hr-text" data-content="Monday,April 29th"> -->
+                    <hr> Monday,April 29th
+                    <hr>
+                    <img src="mockups/Capture.PNG" alt="screenshot">
+                    <hr> Monday,April 20th
+                    <hr>
+                    <div id="message">
+                        <i class="fas fa-plus"></i><input type="text" placeholder="Message #grop-b-rabia">
+                        <i class="fas fa-at"></i>
+                        <i class="far fa-smile"></i>
+                    </div>
+                </div>
+            </section>
         </section>
-
     </div>
-
-
-
-
-
-
-
-
-
-
-
+    <!-- <div class="icon-bar">
+        <a class="active" href="#"><i class="fa fa-home"></i></a>
+        <a href="#"><i class="fa fa-search"></i></a>
+        <a href="#"><i class="fa fa-envelope"></i></a>
+        <a href="#"><i class="fa fa-globe"></i></a>
+        <a href="#"><i class="fa fa-trash"></i></a>
+    </div> -->
 </body>
 
 </html>

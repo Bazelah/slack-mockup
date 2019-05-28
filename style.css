@@ -6,6 +6,15 @@
 
 /* Your webpage should be 100% responsive!!! */
 
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
 .main {
     display: flex;
     flex-direction: row;
@@ -13,6 +22,8 @@
 
 div li {
     list-style-type: none;
+    margin: 0%;
+    padding: 0%;
     /* display: flex;
     justify-content: right; */
 }
@@ -20,13 +31,31 @@ div li {
 .side-bar {
     text-align: initial;
     background-color: #3f0e40;
-    color: #ffffff;
+    color: #ad9aaf;
+    padding: 10px;
+    padding-left: 15px;
 }
 
 .body {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
+
+/* div day {
+    text-align: center;
+    background: #fcfcfa;
+    color: #818078;
+}
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+} */
 
 header {
     display: flex;
