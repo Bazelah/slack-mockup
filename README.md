@@ -3,3 +3,6 @@
 Check the mockups folder and create a pixel perfect clone! 
 
 **Submit your Github Repo URL and Github Pages URL via**  [this form](https://forms.gle/hpnwWht8xTLjqHnH8)
+
+
+published @ https://bazelah.github.io/slack-mockup/
